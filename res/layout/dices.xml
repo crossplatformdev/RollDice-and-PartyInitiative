@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dices"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/choosedice"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView2"
+        android:orientation="vertical" >
+
+        <ToggleButton
+            android:id="@+id/d4"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dicefour"
+            android:textOff="@string/dicefour"
+            android:textOn="@string/dicefour" />
+
+        <ToggleButton
+            android:id="@+id/d6"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dicesix"
+            android:textOff="@string/dicesix"
+            android:textOn="@string/dicesix" />
+
+        <ToggleButton
+            android:id="@+id/d8"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/diceeight"
+            android:textOff="@string/diceeight"
+            android:textOn="@string/diceeight" />
+
+        <ToggleButton
+            android:id="@+id/d10"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/diceten"
+            android:textOff="@string/diceten"
+            android:textOn="@string/diceten" />
+
+        <ToggleButton
+            android:id="@+id/d12"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dicetwelve"
+            android:textOff="@string/dicetwelve"
+            android:textOn="@string/dicetwelve" />
+
+        <ToggleButton
+            android:id="@+id/d20"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dicetwenty"
+            android:textOff="@string/dicetwenty"
+            android:textOn="@string/dicetwenty" />
+
+        <ToggleButton
+            android:id="@+id/d100"
+            style="?android:attr/buttonStyleToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dicehundred"
+            android:textOff="@string/dicehundred"
+            android:textOn="@string/dicehundred" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/roll"
+        style="?android:attr/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:minHeight="100dip"
+        android:text="@string/rolldice" />
+
+    <RelativeLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/roll"
+        android:layout_alignLeft="@+id/roll"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/diceroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+             >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RollDices and PartyInitiative</string>
+    <string name="by_text">Elías A. Angulo</string>
+    <string name="about_text">The author of this app encourages to give feedback for further development. Also you can ask me for explicit features, that I\'ll implement if you give enough feedback or perhaps a donation&#8230;</string>
+    <string name="about">About this app</string>
+    <string name="donation_paypal">Donate with Paypal&#8230;</string>
+    <string name="donation_bitcoin">Donate BTC&#8230;</string>
+    <string name="purchase_premium">Purchase premium app.</string>
+    <string name="send_email">Contact developer…</string>
+    <string name="menu_settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="initiative">Initiative</string>
+    <string name="bonus">Bonus</string>
+    <string name="dice">Dice</string>
+    <string name="total">Total</string>
+    <string name="name">Name</string>
+    <string name="turn_of">The next turn is for:</string>
+    <string name="initiative_layout_text">Enter players initiative:</string>
+    <string name="add_player">Add Player</string>
+    <string name="stats">Stats</string>
+    <string name="armor_class">Armor Class:</string>
+    <string name="hitpoints">Hitpoints:</string>
+    <string name="attack_bonus">Attack Bonus:</string>
+    <string name="delete">Delete</string>
+    <string name="zero">0</string>
+    <string name="sort">Sort Party</string>
+    <string name="save">Save party</string>
+    <string name="load">Load Party</string>
+    <string name="attack">Melee Attack</string>
+    <string name="charge">Charge</string>
+    <string name="barrid">Barrid</string>
+    <string name="anyagaza">Añagaza</string>
+    <string name="stun">Stun</string>
+    <string name="disarm">Disarm</string>
+    <string name="badstep">Badstep</string>
+    <string name="push">Push</string>
+    <string name="righteous">Righteous</string>
+    <string name="block">Block</string>
+    <string name="precise">Precise</string>
+    <string name="rapid">Rapid</string>
+    <string name="new_turn">New Turn</string>
+    <string-array name="alignment">
+        <item>Chaotic</item>
+        <item>Neutral</item>
+        <item>Legal</item>
+    </string-array>
+    <string-array name="action">
+        <item>Melee Attack</item>
+        <item>Block</item>
+        <item>Disarm</item>
+        <item>Añagaza</item>
+        <item>Precise Attack</item>
+        <item>Righteous Attack</item>
+        <item>Rapid Attack</item>
+        <item>Stun</item>
+        <item>Barrid</item>
+        <item>Push</item>
+        <item>Badstep</item>
+    </string-array>
+    <string name="sum1hp">+1 HP</string>
+    <string name="quit1hp">-1 HP</string>
+    <string name="statHitpoints">Hitpoints: </string>
+    <string name="statName">Name: </string>
+    <string name="statInitiativeBonus">Initiative Bonus: </string>
+    <string name="statArmorClass">Armor Class: </string>
+    <string name="statAttackBonus">Attack Bonus: </string>
+    <string name="statHitDice">"Hit Dice: "</string>
+    <string name="hitdice">1d6+1</string>
+    <string name="statMovement">"Movement: "</string>
+    <string name="statDamage">"Damage: "</string>
+    <string name="dice_damage">1d8+1</string>
+    <string name="statMoral">"Moral: "</string>
+    <string name="moral">12</string>
+    <string name="statSalvation">Salvation: </string>
+    <string name="statTreasure">"Treasure: "</string>
+    <string name="treasure">10gp5sp1cp</string>
+    <string name="statExpPoints">&quot;Experience: &quot;</string>
+    <string name="exppoints">100xp</string>
+    <string name="statAlignment">"Alignment: "</string>
+    <string name="salvation">G1</string>
+    <string name="dicefour">1D4</string>
+    <string name="dicesix">1D6</string>
+    <string name="diceeight">1D8</string>
+    <string name="diceten">1D10</string>
+    <string name="dicetwelve">1D12</string>
+    <string name="dicetwenty">1D20</string>
+    <string name="roll">Roll: </string>
+    <string name="choosedice">Choose a dice to roll:</string>
+    <string name="dicehundred">1D100</string>
+    <string name="rolldice">Roll dice</string>
+
+</resources>

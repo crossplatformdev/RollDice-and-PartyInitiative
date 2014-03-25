@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="UnusedIds">
+        <ignore path="res/layout/about.xml" />
+        <ignore path="res/layout/dices.xml" />
+        <ignore path="res/layout/initiative.xml" />
+        <ignore path="res/layout/player_stats.xml" />
+    </issue>
+</lint>
